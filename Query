@@ -1,0 +1,337 @@
+CREATE TABLE russian_equipment_losses (
+	id INTEGER PRIMARY KEY AUTOINCREMENT,
+	date TEXT,
+	days_past INTEGER,
+	aircraft INTEGER,
+	helicopters INTEGER,
+	tanks INTEGER,
+	APCs INTEGER,
+	field_artillery INTEGER,
+	MRL INTEGER,
+	military_autos INTEGER,
+	fuel_tanks INTEGER,
+	drones INTEGER,
+	naval_ships INTEGER,
+	antiaircraft_warfare INTEGER,
+	special_equipments INTEGER,
+	mobile_SRBM_systems INTEGER,
+	vehicles_fuel_tanks INTEGER,
+	cruise_missles INTEGER,
+	greatest_losses_direction TEXT
+);
+INSERT INTO russian_equipment_losses (date, days_past, aircraft, helicopters, tanks, APCs, field_artillery, MRL, military_autos, fuel_tanks, drones, naval_ships, antiaircraft_warfare, special_equipments, mobile_SRBM_systems, vehicles_fuel_tanks, cruise_missles, greatest_losses_direction) VALUES ("2/25/2022",	2, 10, 7, 80, 516, 49, 4, 100, 60, 0, 2, 0, 0, 0, 0, 0, 0);
+INSERT INTO russian_equipment_losses (date, days_past, aircraft, helicopters, tanks, APCs, field_artillery, MRL, military_autos, fuel_tanks, drones, naval_ships, antiaircraft_warfare, special_equipments, mobile_SRBM_systems, vehicles_fuel_tanks, cruise_missles, greatest_losses_direction) VALUES ("2/26/2022",	3, 27, 26, 146, 706, 49, 4, 130, 60, 2, 2, 0, 0, 0, 0, 0, 0);
+INSERT INTO russian_equipment_losses (date, days_past, aircraft, helicopters, tanks, APCs, field_artillery, MRL, military_autos, fuel_tanks, drones, naval_ships, antiaircraft_warfare, special_equipments, mobile_SRBM_systems, vehicles_fuel_tanks, cruise_missles, greatest_losses_direction) VALUES ("2/27/2022", 4, 27, 26, 150, 706, 50, 4, 130, 60, 2, 2, 0, 0, 0, 0, 0, 0);
+INSERT INTO russian_equipment_losses (date, days_past, aircraft, helicopters, tanks, APCs, field_artillery, MRL, military_autos, fuel_tanks, drones, naval_ships, antiaircraft_warfare, special_equipments, mobile_SRBM_systems, vehicles_fuel_tanks, cruise_missles, greatest_losses_direction) VALUES ("2/28/2022", 5, 29, 29, 150, 816, 74, 21, 291, 60, 3, 2, 5, 0, 0, 0, 0, 0);
+INSERT INTO russian_equipment_losses (date, days_past, aircraft, helicopters, tanks, APCs, field_artillery, MRL, military_autos, fuel_tanks, drones, naval_ships, antiaircraft_warfare, special_equipments, mobile_SRBM_systems, vehicles_fuel_tanks, cruise_missles, greatest_losses_direction) VALUES ("3/1/2022", 6, 29, 29, 198, 846, 77, 24, 305, 60, 3, 2, 7, 0, 0, 0, 0, 0);
+INSERT INTO russian_equipment_losses (date, days_past, aircraft, helicopters, tanks, APCs, field_artillery, MRL, military_autos, fuel_tanks, drones, naval_ships, antiaircraft_warfare, special_equipments, mobile_SRBM_systems, vehicles_fuel_tanks, cruise_missles, greatest_losses_direction) VALUES ("3/2/2022", 7, 30,	31, 211, 862, 85, 40, 355, 60, 3, 2, 9, 0, 0, 0, 0, 0);
+INSERT INTO russian_equipment_losses (date, days_past, aircraft, helicopters, tanks, APCs, field_artillery, MRL, military_autos, fuel_tanks, drones, naval_ships, antiaircraft_warfare, special_equipments, mobile_SRBM_systems, vehicles_fuel_tanks, cruise_missles, greatest_losses_direction) VALUES ("3/3/2022", 8, 30,	31, 217, 900, 90,	42, 374, 60, 3, 2, 11, 0, 0, 0, 0, 0);	
+INSERT INTO russian_equipment_losses (date, days_past, aircraft, helicopters, tanks, APCs, field_artillery, MRL, military_autos, fuel_tanks, drones, naval_ships, antiaircraft_warfare, special_equipments, mobile_SRBM_systems, vehicles_fuel_tanks, cruise_missles, greatest_losses_direction) VALUES ("3/4/2022", 9, 33, 37, 251, 939, 105, 50, 404, 60, 3, 2, 18, 0, 0, 0, 0, 0);
+INSERT INTO russian_equipment_losses (date, days_past, aircraft, helicopters, tanks, APCs, field_artillery, MRL, military_autos, fuel_tanks, drones, naval_ships, antiaircraft_warfare, special_equipments, mobile_SRBM_systems, vehicles_fuel_tanks, cruise_missles, greatest_losses_direction) VALUES ("3/5/2022", 10, 39, 40, 269, 945, 105, 50, 409, 60, 3, 2, 19, 0, 0, 0, 0, 0);
+INSERT INTO russian_equipment_losses (date, days_past, aircraft, helicopters, tanks, APCs, field_artillery, MRL, military_autos, fuel_tanks, drones, naval_ships, antiaircraft_warfare, special_equipments, mobile_SRBM_systems, vehicles_fuel_tanks, cruise_missles, greatest_losses_direction) VALUES ("3/6/2022", 11, 44, 48, 285, 985, 109, 50, 447, 60, 4, 2, 21, 0, 0, 0, 0, 0);
+INSERT INTO russian_equipment_losses (date, days_past, aircraft, helicopters, tanks, APCs, field_artillery, MRL, military_autos, fuel_tanks, drones, naval_ships, antiaircraft_warfare, special_equipments, mobile_SRBM_systems, vehicles_fuel_tanks, cruise_missles, greatest_losses_direction) VALUES ("3/7/2022", 12, 46, 68, 290, 999, 117, 50, 454, 60, 7,	3, 23, 0, 0, 0, 0, 0);
+INSERT INTO russian_equipment_losses (date, days_past, aircraft, helicopters, tanks, APCs, field_artillery, MRL, military_autos, fuel_tanks, drones, naval_ships, antiaircraft_warfare, special_equipments, mobile_SRBM_systems, vehicles_fuel_tanks, cruise_missles, greatest_losses_direction) VALUES ("3/8/2022", 13, 48, 80, 303, 1036, 120, 56, 474, 60, 7, 3, 27, 0, 0, 0, 0, 0);
+INSERT INTO russian_equipment_losses (date, days_past, aircraft, helicopters, tanks, APCs, field_artillery, MRL, military_autos, fuel_tanks, drones, naval_ships, antiaircraft_warfare, special_equipments, mobile_SRBM_systems, vehicles_fuel_tanks, cruise_missles, greatest_losses_direction) VALUES ("3/9/2022", 14, 49, 81, 317, 1070, 120, 56, 482, 60, 7, 3, 28, 0, 0, 0, 0, 0);
+INSERT INTO russian_equipment_losses (date, days_past, aircraft, helicopters, tanks, APCs, field_artillery, MRL, military_autos, fuel_tanks, drones, naval_ships, antiaircraft_warfare, special_equipments, mobile_SRBM_systems, vehicles_fuel_tanks, cruise_missles, greatest_losses_direction) VALUES ("3/10/2022", 15, 49, 81, 335, 1105, 123, 56, 526, 60, 7, 3, 29, 0, 0, 0, 0, 0);
+INSERT INTO russian_equipment_losses (date, days_past, aircraft, helicopters, tanks, APCs, field_artillery, MRL, military_autos, fuel_tanks, drones, naval_ships, antiaircraft_warfare, special_equipments, mobile_SRBM_systems, vehicles_fuel_tanks, cruise_missles, greatest_losses_direction) VALUES ("3/11/2022", 16, 57, 83,	353, 1165, 125, 58, 558, 60, 7, 3, 31, 0, 0, 0, 0, 0);
+INSERT INTO russian_equipment_losses (date, days_past, aircraft, helicopters, tanks, APCs, field_artillery, MRL, military_autos, fuel_tanks, drones, naval_ships, antiaircraft_warfare, special_equipments, mobile_SRBM_systems, vehicles_fuel_tanks, cruise_missles, greatest_losses_direction) VALUES ("3/12/2022",	17, 58, 83, 362, 1205, 135, 62, 585, 60, 7, 3, 33, 0, 0, 0, 0, 0);
+INSERT INTO russian_equipment_losses (date, days_past, aircraft, helicopters, tanks, APCs, field_artillery, MRL, military_autos, fuel_tanks, drones, naval_ships, antiaircraft_warfare, special_equipments, mobile_SRBM_systems, vehicles_fuel_tanks, cruise_missles, greatest_losses_direction) VALUES ("3/13/2022",	18, 74, 86,	374, 1226, 140, 62, 600, 60, 7, 3, 34, 0, 0, 0, 0, 0);
+INSERT INTO russian_equipment_losses (date, days_past, aircraft, helicopters, tanks, APCs, field_artillery, MRL, military_autos, fuel_tanks, drones, naval_ships, antiaircraft_warfare, special_equipments, mobile_SRBM_systems, vehicles_fuel_tanks, cruise_missles, greatest_losses_direction) VALUES ("3/14/2022", 19, 77, 90, 389, 1249, 150, 64, 617, 60, 8, 3, 34, 0, 0, 0, 0, 0);
+INSERT INTO russian_equipment_losses (date, days_past, aircraft, helicopters, tanks, APCs, field_artillery, MRL, military_autos, fuel_tanks, drones, naval_ships, antiaircraft_warfare, special_equipments, mobile_SRBM_systems, vehicles_fuel_tanks, cruise_missles, greatest_losses_direction) VALUES ("3/15/2022", 20, 81, 95,	404, 1279, 150, 64, 640, 60, 9, 3, 36, 0, 0, 0, 0, 0);
+INSERT INTO russian_equipment_losses (date, days_past, aircraft, helicopters, tanks, APCs, field_artillery, MRL, military_autos, fuel_tanks, drones, naval_ships, antiaircraft_warfare, special_equipments, mobile_SRBM_systems, vehicles_fuel_tanks, cruise_missles, greatest_losses_direction) VALUES ("3/16/2022", 21, 84, 108, 430,	1375, 190, 70, 819, 60, 11, 3, 43, 10, 0, 0, 0, 0);
+INSERT INTO russian_equipment_losses (date, days_past, aircraft, helicopters, tanks, APCs, field_artillery, MRL, military_autos, fuel_tanks, drones, naval_ships, antiaircraft_warfare, special_equipments, mobile_SRBM_systems, vehicles_fuel_tanks, cruise_missles, greatest_losses_direction) VALUES ("3/17/2022", 22, 86, 108, 444, 1435, 201, 72, 864, 60, 11, 3, 43, 10, 0, 0, 0, 0);
+INSERT INTO russian_equipment_losses (date, days_past, aircraft, helicopters, tanks, APCs, field_artillery, MRL, military_autos, fuel_tanks, drones, naval_ships, antiaircraft_warfare, special_equipments, mobile_SRBM_systems, vehicles_fuel_tanks, cruise_missles, greatest_losses_direction) VALUES ("3/18/2022", 23, 93, 112, 450, 1448,	205, 72, 879, 60, 12, 3, 43, 11, 0, 0, 0, 0);
+INSERT INTO russian_equipment_losses (date, days_past, aircraft, helicopters, tanks, APCs, field_artillery, MRL, military_autos, fuel_tanks, drones, naval_ships, antiaircraft_warfare, special_equipments, mobile_SRBM_systems, vehicles_fuel_tanks, cruise_missles, greatest_losses_direction) VALUES ("3/19/2022", 24, 95, 115, 466,	1470,	213, 72, 914, 60, 17, 3, 44, 11, 0, 0, 0, 0);
+INSERT INTO russian_equipment_losses (date, days_past, aircraft, helicopters, tanks, APCs, field_artillery, MRL, military_autos, fuel_tanks, drones, naval_ships, antiaircraft_warfare, special_equipments, mobile_SRBM_systems, vehicles_fuel_tanks, cruise_missles, greatest_losses_direction) VALUES ("3/20/2022", 25, 96, 118, 476,	1487,	230, 74, 947, 60, 21, 3, 44, 12, 0, 0, 0, 0);
+INSERT INTO russian_equipment_losses (date, days_past, aircraft, helicopters, tanks, APCs, field_artillery, MRL, military_autos, fuel_tanks, drones, naval_ships, antiaircraft_warfare, special_equipments, mobile_SRBM_systems, vehicles_fuel_tanks, cruise_missles, greatest_losses_direction) VALUES ("3/21/2022", 26, 97, 121, 498,	1535,	240, 80, 969, 60, 24, 3, 45, 13, 0, 0, 0, 0);
+INSERT INTO russian_equipment_losses (date, days_past, aircraft, helicopters, tanks, APCs, field_artillery, MRL, military_autos, fuel_tanks, drones, naval_ships, antiaircraft_warfare, special_equipments, mobile_SRBM_systems, vehicles_fuel_tanks, cruise_missles, greatest_losses_direction) VALUES ("3/22/2022", 27, 99, 123, 509,	1556,	252, 80, 1000, 70, 35, 3, 45,	15, 0, 0, 0, 0);
+INSERT INTO russian_equipment_losses (date, days_past, aircraft, helicopters, tanks, APCs, field_artillery, MRL, military_autos, fuel_tanks, drones, naval_ships, antiaircraft_warfare, special_equipments, mobile_SRBM_systems, vehicles_fuel_tanks, cruise_missles, greatest_losses_direction) VALUES ("3/23/2022", 28, 101, 124, 517, 1578, 267,	80, 1008, 70, 42, 4, 47, 15, 0, 0, 0, 0);
+INSERT INTO russian_equipment_losses (date, days_past, aircraft, helicopters, tanks, APCs, field_artillery, MRL, military_autos, fuel_tanks, drones, naval_ships, antiaircraft_warfare, special_equipments, mobile_SRBM_systems, vehicles_fuel_tanks, cruise_missles, greatest_losses_direction) VALUES ("3/24/2022", 29, 108, 124, 530, 1597, 280,	82, 1033, 72, 50, 4, 47, 16, 0, 0, 0, 0);
+INSERT INTO russian_equipment_losses (date, days_past, aircraft, helicopters, tanks, APCs, field_artillery, MRL, military_autos, fuel_tanks, drones, naval_ships, antiaircraft_warfare, special_equipments, mobile_SRBM_systems, vehicles_fuel_tanks, cruise_missles, greatest_losses_direction) VALUES ("3/25/2022", 30, 115, 125, 561, 1625, 291,	90, 1089, 72, 53, 5, 49, 18, 0, 0, 0, 0);
+INSERT INTO russian_equipment_losses (date, days_past, aircraft, helicopters, tanks, APCs, field_artillery, MRL, military_autos, fuel_tanks, drones, naval_ships, antiaircraft_warfare, special_equipments, mobile_SRBM_systems, vehicles_fuel_tanks, cruise_missles, greatest_losses_direction) VALUES ("3/26/2022", 31, 117, 127, 575, 1640, 293,	91, 1131, 73, 56, 7, 51, 19, 2, 0, 0, 0);
+INSERT INTO russian_equipment_losses (date, days_past, aircraft, helicopters, tanks, APCs, field_artillery, MRL, military_autos, fuel_tanks, drones, naval_ships, antiaircraft_warfare, special_equipments, mobile_SRBM_systems, vehicles_fuel_tanks, cruise_missles, greatest_losses_direction) VALUES ("3/27/2022", 32, 121, 127, 582, 1664, 294, 93, 1144, 73, 56, 7, 52, 21, 4, 0, 0, 0);
+INSERT INTO russian_equipment_losses (date, days_past, aircraft, helicopters, tanks, APCs, field_artillery, MRL, military_autos, fuel_tanks, drones, naval_ships, antiaircraft_warfare, special_equipments, mobile_SRBM_systems, vehicles_fuel_tanks, cruise_missles, greatest_losses_direction) VALUES ("3/28/2022", 33, 123, 127, 586, 1694, 302, 95, 1150, 73, 66, 7, 54, 21, 4, 0, 0, 0);
+INSERT INTO russian_equipment_losses (date, days_past, aircraft, helicopters, tanks, APCs, field_artillery, MRL, military_autos, fuel_tanks, drones, naval_ships, antiaircraft_warfare, special_equipments, mobile_SRBM_systems, vehicles_fuel_tanks, cruise_missles, greatest_losses_direction) VALUES ("3/29/2022", 34, 127, 129, 597, 1710, 303, 96, 1178, 73, 71, 7, 54, 21, 4, 0, 0, 0);
+INSERT INTO russian_equipment_losses (date, days_past, aircraft, helicopters, tanks, APCs, field_artillery, MRL, military_autos, fuel_tanks, drones, naval_ships, antiaircraft_warfare, special_equipments, mobile_SRBM_systems, vehicles_fuel_tanks, cruise_missles, greatest_losses_direction) VALUES ("3/30/2022", 35, 131, 131, 605, 1723, 305, 96, 1184, 75, 81, 7, 54, 21, 4, 0, 0, 0);
+INSERT INTO russian_equipment_losses (date, days_past, aircraft, helicopters, tanks, APCs, field_artillery, MRL, military_autos, fuel_tanks, drones, naval_ships, antiaircraft_warfare, special_equipments, mobile_SRBM_systems, vehicles_fuel_tanks, cruise_missles, greatest_losses_direction) VALUES ("3/31/2022", 36, 135, 131, 614, 1735, 311, 96, 1201, 75, 83, 7, 54, 22, 4, 0, 0, 0);
+INSERT INTO russian_equipment_losses (date, days_past, aircraft, helicopters, tanks, APCs, field_artillery, MRL, military_autos, fuel_tanks, drones, naval_ships, antiaircraft_warfare, special_equipments, mobile_SRBM_systems, vehicles_fuel_tanks, cruise_missles, greatest_losses_direction) VALUES ("4/1/2022", 37, 143, 131, 625, 1751, 316, 96, 1220, 76, 85, 7, 54, 24, 4, 0, 0, 0);
+INSERT INTO russian_equipment_losses (date, days_past, aircraft, helicopters, tanks, APCs, field_artillery, MRL, military_autos, fuel_tanks, drones, naval_ships, antiaircraft_warfare, special_equipments, mobile_SRBM_systems, vehicles_fuel_tanks, cruise_missles, greatest_losses_direction) VALUES ("4/2/2022", 38, 143, 134, 631, 1776, 317, 100, 1236, 76, 87, 7, 54, 24, 4, 0, 0, 0);
+INSERT INTO russian_equipment_losses (date, days_past, aircraft, helicopters, tanks, APCs, field_artillery, MRL, military_autos, fuel_tanks, drones, naval_ships, antiaircraft_warfare, special_equipments, mobile_SRBM_systems, vehicles_fuel_tanks, cruise_missles, greatest_losses_direction) VALUES ("4/3/2022", 39, 143, 134, 644, 1830, 325, 105, 1249, 76, 89, 7, 54, 24, 4, 0, 0, 0);
+INSERT INTO russian_equipment_losses (date, days_past, aircraft, helicopters, tanks, APCs, field_artillery, MRL, military_autos, fuel_tanks, drones, naval_ships, antiaircraft_warfare, special_equipments, mobile_SRBM_systems, vehicles_fuel_tanks, cruise_missles, greatest_losses_direction) VALUES ("4/4/2022", 40, 147, 134, 647, 1844, 330, 107, 1273, 76, 91, 7, 54, 25, 4, 0, 0, 0);
+INSERT INTO russian_equipment_losses (date, days_past, aircraft, helicopters, tanks, APCs, field_artillery, MRL, military_autos, fuel_tanks, drones, naval_ships, antiaircraft_warfare, special_equipments, mobile_SRBM_systems, vehicles_fuel_tanks, cruise_missles, greatest_losses_direction) VALUES ("4/5/2022", 41, 150, 134, 676, 1858, 332, 107, 1322, 76, 94, 7, 55, 25, 4, 0, 0, 0);
+INSERT INTO russian_equipment_losses (date, days_past, aircraft, helicopters, tanks, APCs, field_artillery, MRL, military_autos, fuel_tanks, drones, naval_ships, antiaircraft_warfare, special_equipments, mobile_SRBM_systems, vehicles_fuel_tanks, cruise_missles, greatest_losses_direction) VALUES ("4/6/2022", 42, 150, 135, 684, 1861, 332, 107, 1324, 76, 96, 7, 55, 25, 4, 0, 0, 0);
+INSERT INTO russian_equipment_losses (date, days_past, aircraft, helicopters, tanks, APCs, field_artillery, MRL, military_autos, fuel_tanks, drones, naval_ships, antiaircraft_warfare, special_equipments, mobile_SRBM_systems, vehicles_fuel_tanks, cruise_missles, greatest_losses_direction) VALUES ("4/7/2022", 43, 150, 135, 698, 1891, 332, 108, 1358, 76, 111, 7, 55, 25, 4, 0, 0, 0);
+INSERT INTO russian_equipment_losses (date, days_past, aircraft, helicopters, tanks, APCs, field_artillery, MRL, military_autos, fuel_tanks, drones, naval_ships, antiaircraft_warfare, special_equipments, mobile_SRBM_systems, vehicles_fuel_tanks, cruise_missles, greatest_losses_direction) VALUES ("4/8/2022", 44, 150, 135, 700, 1891, 333, 108, 1361, 76, 112, 7, 55, 25, 4, 0, 0, 0);
+INSERT INTO russian_equipment_losses (date, days_past, aircraft, helicopters, tanks, APCs, field_artillery, MRL, military_autos, fuel_tanks, drones, naval_ships, antiaircraft_warfare, special_equipments, mobile_SRBM_systems, vehicles_fuel_tanks, cruise_missles, greatest_losses_direction) VALUES ("4/9/2022", 45, 151, 136, 705, 1895, 335, 108, 1363, 76, 112, 7, 55, 25, 4, 0, 0, 0);
+INSERT INTO russian_equipment_losses (date, days_past, aircraft, helicopters, tanks, APCs, field_artillery, MRL, military_autos, fuel_tanks, drones, naval_ships, antiaircraft_warfare, special_equipments, mobile_SRBM_systems, vehicles_fuel_tanks, cruise_missles, greatest_losses_direction) VALUES ("4/10/2022", 46, 152, 137, 722, 1911, 342, 108, 1384, 76, 112, 7, 55, 25, 4, 0, 0, 0);
+INSERT INTO russian_equipment_losses (date, days_past, aircraft, helicopters, tanks, APCs, field_artillery, MRL, military_autos, fuel_tanks, drones, naval_ships, antiaircraft_warfare, special_equipments, mobile_SRBM_systems, vehicles_fuel_tanks, cruise_missles, greatest_losses_direction) VALUES ("4/11/2022", 47, 154, 137, 725, 1923, 347, 111, 1387, 76, 119, 7, 55, 25, 4, 0, 0, 0);
+INSERT INTO russian_equipment_losses (date, days_past, aircraft, helicopters, tanks, APCs, field_artillery, MRL, military_autos, fuel_tanks, drones, naval_ships, antiaircraft_warfare, special_equipments, mobile_SRBM_systems, vehicles_fuel_tanks, cruise_missles, greatest_losses_direction) VALUES ("4/12/2022", 48, 157, 140, 732, 1946, 349, 111,	1406, 76, 124, 7, 63, 25, 4, 0, 0, 0);
+INSERT INTO russian_equipment_losses (date, days_past, aircraft, helicopters, tanks, APCs, field_artillery, MRL, military_autos, fuel_tanks, drones, naval_ships, antiaircraft_warfare, special_equipments, mobile_SRBM_systems, vehicles_fuel_tanks, cruise_missles, greatest_losses_direction) VALUES ("4/13/2022", 49, 158, 143, 739, 964, 358, 115, 1429, 76, 132, 7, 64, 25, 4, 0, 0, 0);
+INSERT INTO russian_equipment_losses (date, days_past, aircraft, helicopters, tanks, APCs, field_artillery, MRL, military_autos, fuel_tanks, drones, naval_ships, antiaircraft_warfare, special_equipments, mobile_SRBM_systems, vehicles_fuel_tanks, cruise_missles, greatest_losses_direction) VALUES ("4/14/2022", 50, 160, 144, 753, 1968, 366, 122, 1437, 76, 134, 7, 64, 25, 4, 0, 0, 0);
+INSERT INTO russian_equipment_losses (date, days_past, aircraft, helicopters, tanks, APCs, field_artillery, MRL, military_autos, fuel_tanks, drones, naval_ships, antiaircraft_warfare, special_equipments, mobile_SRBM_systems, vehicles_fuel_tanks, cruise_missles, greatest_losses_direction) VALUES ("4/15/2022",	51, 163, 144, 756, 1976, 366,	122, 1443, 76, 135, 8, 66, 25, 4, 0, 0, 0);
+INSERT INTO russian_equipment_losses (date, days_past, aircraft, helicopters, tanks, APCs, field_artillery, MRL, military_autos, fuel_tanks, drones, naval_ships, antiaircraft_warfare, special_equipments, mobile_SRBM_systems, vehicles_fuel_tanks, cruise_missles, greatest_losses_direction) VALUES ("4/16/2022", 52, 163, 145, 762, 1982, 371,	125, 1458, 76, 138, 8, 66, 26, 4, 0, 0, 0);
+INSERT INTO russian_equipment_losses (date, days_past, aircraft, helicopters, tanks, APCs, field_artillery, MRL, military_autos, fuel_tanks, drones, naval_ships, antiaircraft_warfare, special_equipments, mobile_SRBM_systems, vehicles_fuel_tanks, cruise_missles, greatest_losses_direction) VALUES ("4/17/2022", 53, 165, 146, 773, 2002, 376, 127, 1471, 76, 148, 8, 66, 27, 4, 0, 0, 0);
+INSERT INTO russian_equipment_losses (date, days_past, aircraft, helicopters, tanks, APCs, field_artillery, MRL, military_autos, fuel_tanks, drones, naval_ships, antiaircraft_warfare, special_equipments, mobile_SRBM_systems, vehicles_fuel_tanks, cruise_missles, greatest_losses_direction) VALUES ("4/18/2022", 54, 167, 147, 790, 2041, 381, 130, 1487, 76, 155, 8, 67, 27, 4, 0, 0, 0);
+INSERT INTO russian_equipment_losses (date, days_past, aircraft, helicopters, tanks, APCs, field_artillery, MRL, military_autos, fuel_tanks, drones, naval_ships, antiaircraft_warfare, special_equipments, mobile_SRBM_systems, vehicles_fuel_tanks, cruise_missles, greatest_losses_direction) VALUES ("4/19/2022",	55, 169, 150, 802, 2063, 386, 132, 1495, 76, 158, 8, 67, 27, 4, 0, 0, 0);
+INSERT INTO russian_equipment_losses (date, days_past, aircraft, helicopters, tanks, APCs, field_artillery, MRL, military_autos, fuel_tanks, drones, naval_ships, antiaircraft_warfare, special_equipments, mobile_SRBM_systems, vehicles_fuel_tanks, cruise_missles, greatest_losses_direction) VALUES ("4/20/2022", 56, 171, 150, 815, 2087, 391,	136, 1504, 76, 165, 8, 67, 27, 4, 0, 0, 0);
+INSERT INTO russian_equipment_losses (date, days_past, aircraft, helicopters, tanks, APCs, field_artillery, MRL, military_autos, fuel_tanks, drones, naval_ships, antiaircraft_warfare, special_equipments, mobile_SRBM_systems, vehicles_fuel_tanks, cruise_missles, greatest_losses_direction) VALUES ("4/21/2022", 57, 172, 151, 829, 2118, 393,	136, 1508, 76, 166, 8, 67, 27, 4, 0, 0, 0);
+INSERT INTO russian_equipment_losses (date, days_past, aircraft, helicopters, tanks, APCs, field_artillery, MRL, military_autos, fuel_tanks, drones, naval_ships, antiaircraft_warfare, special_equipments, mobile_SRBM_systems, vehicles_fuel_tanks, cruise_missles, greatest_losses_direction) VALUES ("4/22/2022", 58, 176, 153, 838, 2162, 397, 138, 1523, 76, 172, 8, 69, 27, 4, 0, 0, 0);
+INSERT INTO russian_equipment_losses (date, days_past, aircraft, helicopters, tanks, APCs, field_artillery, MRL, military_autos, fuel_tanks, drones, naval_ships, antiaircraft_warfare, special_equipments, mobile_SRBM_systems, vehicles_fuel_tanks, cruise_missles, greatest_losses_direction) VALUES ("4/23/2022",	59, 177, 154, 854, 2205, 403,	143, 1543, 76, 182, 8, 69, 27, 4, 0, 0, 0);
+INSERT INTO russian_equipment_losses (date, days_past, aircraft, helicopters, tanks, APCs, field_artillery, MRL, military_autos, fuel_tanks, drones, naval_ships, antiaircraft_warfare, special_equipments, mobile_SRBM_systems, vehicles_fuel_tanks, cruise_missles, greatest_losses_direction) VALUES ("4/24/2022",	60, 179, 154, 873, 2238, 408,	147, 1557, 76, 191, 8, 69, 28, 4, 0, 0, 0);
+INSERT INTO russian_equipment_losses (date, days_past, aircraft, helicopters, tanks, APCs, field_artillery, MRL, military_autos, fuel_tanks, drones, naval_ships, antiaircraft_warfare, special_equipments, mobile_SRBM_systems, vehicles_fuel_tanks, cruise_missles, greatest_losses_direction) VALUES ("4/26/2022", 62, 184, 154, 918, 2308, 416, 149, 1643, 76, 205, 8, 69, 31, 4, 0, 0, 0);
+INSERT INTO russian_equipment_losses (date, days_past, aircraft, helicopters, tanks, APCs, field_artillery, MRL, military_autos, fuel_tanks, drones, naval_ships, antiaircraft_warfare, special_equipments, mobile_SRBM_systems, vehicles_fuel_tanks, cruise_missles, greatest_losses_direction) VALUES ("4/27/2022",	63, 185, 155, 939, 2342, 421, 149, 1666, 76, 207, 8, 71, 31, 4, 0, 0, 0); 
+INSERT INTO russian_equipment_losses (date, days_past, aircraft, helicopters, tanks, APCs, field_artillery, MRL, military_autos, fuel_tanks, drones, naval_ships, antiaircraft_warfare, special_equipments, mobile_SRBM_systems, vehicles_fuel_tanks, cruise_missles, greatest_losses_direction) VALUES ("4/28/2022",	64, 187, 155, 970, 2389, 431, 151, 1688, 76, 215, 8, 72, 31, 4, 0, 0, 0);
+INSERT INTO russian_equipment_losses (date, days_past, aircraft, helicopters, tanks, APCs, field_artillery, MRL, military_autos, fuel_tanks, drones, naval_ships, antiaircraft_warfare, special_equipments, mobile_SRBM_systems, vehicles_fuel_tanks, cruise_missles, greatest_losses_direction) VALUES ("4/29/2022", 65, 189, 155, 986, 2418, 435, 151, 1695, 76, 229, 8, 73, 31, 4, 0, 0, 0);
+INSERT INTO russian_equipment_losses (date, days_past, aircraft, helicopters, tanks, APCs, field_artillery, MRL, military_autos, fuel_tanks, drones, naval_ships, antiaircraft_warfare, special_equipments, mobile_SRBM_systems, vehicles_fuel_tanks, cruise_missles, greatest_losses_direction) VALUES ("4/30/2022",	66, 190, 155, 1008, 2445, 436, 151, 1701,	76, 232, 8, 77, 32, 4, 0, 0, 0);
+INSERT INTO russian_equipment_losses (date, days_past, aircraft, helicopters, tanks, APCs, field_artillery, MRL, military_autos, fuel_tanks, drones, naval_ships, antiaircraft_warfare, special_equipments, mobile_SRBM_systems, vehicles_fuel_tanks, cruise_missles, greatest_losses_direction) VALUES ("5/1/2022", 67, 192, 155, 1026, 2471, 451, 151, NULL, NULL, 245, 8, 80, 32, NULL, 1796, 84, 0);
+INSERT INTO russian_equipment_losses (date, days_past, aircraft, helicopters, tanks, APCs, field_artillery, MRL, military_autos, fuel_tanks, drones, naval_ships, antiaircraft_warfare, special_equipments, mobile_SRBM_systems, vehicles_fuel_tanks, cruise_missles, greatest_losses_direction) VALUES ("5/2/2022", 68, 194, 155, 1048, 2519, 459,	152, NULL, NULL, 271, 8, 80, 38, NULL, 1824, 84, 0);
+INSERT INTO russian_equipment_losses (date, days_past, aircraft, helicopters, tanks, APCs, field_artillery, MRL, military_autos, fuel_tanks, drones, naval_ships, antiaircraft_warfare, special_equipments, mobile_SRBM_systems, vehicles_fuel_tanks, cruise_missles, greatest_losses_direction) VALUES ("5/3/2022", 69, 194, 155, 1062, 2567, 475, 162, NULL, NULL, 291, 10, 80, 38, NULL, 1843, 84, 0);
+INSERT INTO russian_equipment_losses (date, days_past, aircraft, helicopters, tanks, APCs, field_artillery, MRL, military_autos, fuel_tanks, drones, naval_ships, antiaircraft_warfare, special_equipments, mobile_SRBM_systems, vehicles_fuel_tanks, cruise_missles, greatest_losses_direction) VALUES ("5/4/2022", 70, 194, 155, 1077, 2610, 491, 163, NULL, NULL, 303, 10, 81, 38, NULL, 1867, 87, 0);
+INSERT INTO russian_equipment_losses (date, days_past, aircraft, helicopters, tanks, APCs, field_artillery, MRL, military_autos, fuel_tanks, drones, naval_ships, antiaircraft_warfare, special_equipments, mobile_SRBM_systems, vehicles_fuel_tanks, cruise_missles, greatest_losses_direction) VALUES ("5/5/2022", 71, 196, 155, 1092, 2651, 499,	169, NULL, NULL, 312, 10, 83, 38, NULL, 1907, 89, 0); 
+INSERT INTO russian_equipment_losses (date, days_past, aircraft, helicopters, tanks, APCs, field_artillery, MRL, military_autos, fuel_tanks, drones, naval_ships, antiaircraft_warfare, special_equipments, mobile_SRBM_systems, vehicles_fuel_tanks, cruise_missles, greatest_losses_direction) VALUES ("5/6/2022", 72, 199, 155, 1110, 2686, 502, 171, NULL, NULL, 324, 11, 83, 38, NULL, 1926, 90, 0);
+INSERT INTO russian_equipment_losses (date, days_past, aircraft, helicopters, tanks, APCs, field_artillery, MRL, military_autos, fuel_tanks, drones, naval_ships, antiaircraft_warfare, special_equipments, mobile_SRBM_systems, vehicles_fuel_tanks, cruise_missles, greatest_losses_direction) VALUES ("5/7/2022", 73, 199, 155, 1122, 2713, 509, 172, NULL, NULL, 341, 11, 84, 38, NULL, 1934, 90, 0);
+INSERT INTO russian_equipment_losses (date, days_past, aircraft, helicopters, tanks, APCs, field_artillery, MRL, military_autos, fuel_tanks, drones, naval_ships, antiaircraft_warfare, special_equipments, mobile_SRBM_systems, vehicles_fuel_tanks, cruise_missles, greatest_losses_direction) VALUES ("5/8/2022", 74, 199, 156, 1130, 2741, 509, 179, NULL, NULL, 360, 12, 86, 39, NULL, 1961, 92, 0);
+INSERT INTO russian_equipment_losses (date, days_past, aircraft, helicopters, tanks, APCs, field_artillery, MRL, military_autos, fuel_tanks, drones, naval_ships, antiaircraft_warfare, special_equipments, mobile_SRBM_systems, vehicles_fuel_tanks, cruise_missles, greatest_losses_direction) VALUES ("5/9/2022", 75, 199, 158, 1145, 2764, 513, 185, NULL, NULL, 377, 12, 87, 41, NULL, 1970, 94, 0);
+INSERT INTO russian_equipment_losses (date, days_past, aircraft, helicopters, tanks, APCs, field_artillery, MRL, military_autos, fuel_tanks, drones, naval_ships, antiaircraft_warfare, special_equipments, mobile_SRBM_systems, vehicles_fuel_tanks, cruise_missles, greatest_losses_direction) VALUES ("5/10/2022", 76, 199, 158, 1170, 2808, 519, 185, NULL, NULL, 380, 12, 87, 41, NULL, 1980, 94, 0);
+INSERT INTO russian_equipment_losses (date, days_past, aircraft, helicopters, tanks, APCs, field_artillery, MRL, military_autos, fuel_tanks, drones, naval_ships, antiaircraft_warfare, special_equipments, mobile_SRBM_systems, vehicles_fuel_tanks, cruise_missles, greatest_losses_direction) VALUES ("5/11/2022",	77, 199, 160, 1187, 2856, 528, 185, NULL, NULL,	390, 12, 87, 41, NULL, 1997, 94, 0);
+INSERT INTO russian_equipment_losses (date, days_past, aircraft, helicopters, tanks, APCs, field_artillery, MRL, military_autos, fuel_tanks, drones, naval_ships, antiaircraft_warfare, special_equipments, mobile_SRBM_systems, vehicles_fuel_tanks, cruise_missles, greatest_losses_direction) VALUES ("5/12/2022",	78, 199, 161, 1195, 2873, 534, 191, NULL, NULL,	398, 13, 87, 41, NULL, 2019, 94, 0); 
+INSERT INTO russian_equipment_losses (date, days_past, aircraft, helicopters, tanks, APCs, field_artillery, MRL, military_autos, fuel_tanks, drones, naval_ships, antiaircraft_warfare, special_equipments, mobile_SRBM_systems, vehicles_fuel_tanks, cruise_missles, greatest_losses_direction) VALUES ("5/13/2022", 79, 200, 162, 1205, 2900, 542, 193, NULL, NULL, 405, 13, 88, 41, NULL, 2042, 95, 0);
+INSERT INTO russian_equipment_losses (date, days_past, aircraft, helicopters, tanks, APCs, field_artillery, MRL, military_autos, fuel_tanks, drones, naval_ships, antiaircraft_warfare, special_equipments, mobile_SRBM_systems, vehicles_fuel_tanks, cruise_missles, greatest_losses_direction) VALUES ("5/14/2022", 80, 200, 163, 1218, 2934, 551, 195, NULL, NULL, 411, 13, 88, 42, NULL, 2059, 95, 0);
+INSERT INTO russian_equipment_losses (date, days_past, aircraft, helicopters, tanks, APCs, field_artillery, MRL, military_autos, fuel_tanks, drones, naval_ships, antiaircraft_warfare, special_equipments, mobile_SRBM_systems, vehicles_fuel_tanks, cruise_missles, greatest_losses_direction) VALUES ("5/15/2022",	81, 200, 164, 1220, 2958, 555, 195, NULL, NULL, 416, 13, 89, 42, NULL, 2087, 95, 0);
+INSERT INTO russian_equipment_losses (date, days_past, aircraft, helicopters, tanks, APCs, field_artillery, MRL, military_autos, fuel_tanks, drones, naval_ships, antiaircraft_warfare, special_equipments, mobile_SRBM_systems, vehicles_fuel_tanks, cruise_missles, greatest_losses_direction) VALUES ("5/16/2022",	82, 200, 165, 1228, 2974, 577, 195, NULL, NULL, 427, 13, 89, 42, NULL, 2101, 97, 0);
+INSERT INTO russian_equipment_losses (date, days_past, aircraft, helicopters, tanks, APCs, field_artillery, MRL, military_autos, fuel_tanks, drones, naval_ships, antiaircraft_warfare, special_equipments, mobile_SRBM_systems, vehicles_fuel_tanks, cruise_missles, greatest_losses_direction) VALUES ("5/17/2022",	83, 201, 167, 1235, 3009, 578, 198, NULL, NULL, 436, 13, 90, 43, NULL, 2109, 97, 0);
+INSERT INTO russian_equipment_losses (date, days_past, aircraft, helicopters, tanks, APCs, field_artillery, MRL, military_autos, fuel_tanks, drones, naval_ships, antiaircraft_warfare, special_equipments, mobile_SRBM_systems, vehicles_fuel_tanks, cruise_missles, greatest_losses_direction) VALUES ("5/18/2022", 84, 202, 167, 1251, 3043, 586, 199, NULL, NULL, 441, 13, 91, 43, NULL, 2137, 102, 0);
+INSERT INTO russian_equipment_losses (date, days_past, aircraft, helicopters, tanks, APCs, field_artillery, MRL, military_autos, fuel_tanks, drones, naval_ships, antiaircraft_warfare, special_equipments, mobile_SRBM_systems, vehicles_fuel_tanks, cruise_missles, greatest_losses_direction) VALUES ("5/19/2022",	85, 203, 167, 1254, 3063, 595, 199, NULL, NULL,	455, 13, 93, 43, NULL, 2157, 103, 0);	
+INSERT INTO russian_equipment_losses (date, days_past, aircraft, helicopters, tanks, APCs, field_artillery, MRL, military_autos, fuel_tanks, drones, naval_ships, antiaircraft_warfare, special_equipments, mobile_SRBM_systems, vehicles_fuel_tanks, cruise_missles, greatest_losses_direction) VALUES ("5/20/2022",	86, 204, 168, 1263, 3090, 596, 200, NULL, NULL,	460, 13, 93, 43, NULL, 2162, 103, 0);
+INSERT INTO russian_equipment_losses (date, days_past, aircraft, helicopters, tanks, APCs, field_artillery, MRL, military_autos, fuel_tanks, drones, naval_ships, antiaircraft_warfare, special_equipments, mobile_SRBM_systems, vehicles_fuel_tanks, cruise_missles, greatest_losses_direction) VALUES ("5/21/2022",	87, 204, 169, 1278, 3116, 596, 201, NULL, NULL, 462, 13, 93, 43, NULL, 2178, 104, 0);	
+INSERT INTO russian_equipment_losses (date, days_past, aircraft, helicopters, tanks, APCs, field_artillery, MRL, military_autos, fuel_tanks, drones, naval_ships, antiaircraft_warfare, special_equipments, mobile_SRBM_systems, vehicles_fuel_tanks, cruise_missles, greatest_losses_direction) VALUES ("5/22/2022",	88, 204, 170, 1285, 3141, 599, 201, NULL, NULL, 470, 13, 93, 43, NULL, 2194, 107, 0);	
+INSERT INTO russian_equipment_losses (date, days_past, aircraft, helicopters, tanks, APCs, field_artillery, MRL, military_autos, fuel_tanks, drones, naval_ships, antiaircraft_warfare, special_equipments, mobile_SRBM_systems, vehicles_fuel_tanks, cruise_missles, greatest_losses_direction) VALUES ("5/23/2022",	89, 204, 170, 1293, 3166, 604, 201, NULL, NULL, 476, 13, 93, 43, NULL, 2206, 110, 0);	
+INSERT INTO russian_equipment_losses (date, days_past, aircraft, helicopters, tanks, APCs, field_artillery, MRL, military_autos, fuel_tanks, drones, naval_ships, antiaircraft_warfare, special_equipments, mobile_SRBM_systems, vehicles_fuel_tanks, cruise_missles, greatest_losses_direction) VALUES ("5/24/2022",	90, 205, 170, 1302, 3194, 606, 201, NULL, NULL, 480, 13, 93, 43, NULL, 2213, 112, 0);	
+INSERT INTO russian_equipment_losses (date, days_past, aircraft, helicopters, tanks, APCs, field_artillery, MRL, military_autos, fuel_tanks, drones, naval_ships, antiaircraft_warfare, special_equipments, mobile_SRBM_systems, vehicles_fuel_tanks, cruise_missles, greatest_losses_direction) VALUES ("5/25/2022",	91, 206, 170, 1305, 3213, 606, 201, NULL, NULL,	491, 13, 93, 44, NULL, 2217, 112, "Lyman");
+INSERT INTO russian_equipment_losses (date, days_past, aircraft, helicopters, tanks, APCs, field_artillery, MRL, military_autos, fuel_tanks, drones, naval_ships, antiaircraft_warfare, special_equipments, mobile_SRBM_systems, vehicles_fuel_tanks, cruise_missles, greatest_losses_direction) VALUES ("5/26/2022", 92, 206, 170, 1315, 3235, 617, 201, NULL, NULL,	502, 13, 93, 47, NULL, 2225, 114, "Avdiivka");
+INSERT INTO russian_equipment_losses (date, days_past, aircraft, helicopters, tanks, APCs, field_artillery, MRL, military_autos, fuel_tanks, drones, naval_ships, antiaircraft_warfare, special_equipments, mobile_SRBM_systems, vehicles_fuel_tanks, cruise_missles, greatest_losses_direction) VALUES ("5/27/2022",	93, 206, 170, 1322, 3246, 623, 201, NULL, NULL, 503, 13, 93, 48, NULL, 2226, 115, "Avdiivka");
+INSERT INTO russian_equipment_losses (date, days_past, aircraft, helicopters, tanks, APCs, field_artillery, MRL, military_autos, fuel_tanks, drones, naval_ships, antiaircraft_warfare, special_equipments, mobile_SRBM_systems, vehicles_fuel_tanks, cruise_missles, greatest_losses_direction) VALUES ("5/28/2022",	94, 207, 174, 1330, 3258, 628, 203, NULL, NULL, 503, 13, 93, 48, NULL, 2226, 116, "Avdiivka and Kryvyi Rih");
+INSERT INTO russian_equipment_losses (date, days_past, aircraft, helicopters, tanks, APCs, field_artillery, MRL, military_autos, fuel_tanks, drones, naval_ships, antiaircraft_warfare, special_equipments, mobile_SRBM_systems, vehicles_fuel_tanks, cruise_missles, greatest_losses_direction) VALUES ("5/29/2022",	95, 207, 174, 1338, 3270, 631, 203, NULL, NULL, 504, 13, 93, 48, NULL, 2240, 116, "Bahmut");
+INSERT INTO russian_equipment_losses (date, days_past, aircraft, helicopters, tanks, APCs, field_artillery, MRL, military_autos, fuel_tanks, drones, naval_ships, antiaircraft_warfare, special_equipments, mobile_SRBM_systems, vehicles_fuel_tanks, cruise_missles, greatest_losses_direction) VALUES ("5/30/2022",	96, 207, 174, 1349, 3282, 643, 205, NULL, NULL, 507, 13, 93, 48, NULL, 2258, 118, "Zaporizhzhia");
+INSERT INTO russian_equipment_losses (date, days_past, aircraft, helicopters, tanks, APCs, field_artillery, MRL, military_autos, fuel_tanks, drones, naval_ships, antiaircraft_warfare, special_equipments, mobile_SRBM_systems, vehicles_fuel_tanks, cruise_missles, greatest_losses_direction) VALUES ("5/31/2022",	97, 208, 174, 1358, 3302, 649, 207, NULL, NULL, 515, 13, 93, 48, NULL, 2275, 120, "Kryvyi Rih and Zaporizhzhya");
+INSERT INTO russian_equipment_losses (date, days_past, aircraft, helicopters, tanks, APCs, field_artillery, MRL, military_autos, fuel_tanks, drones, naval_ships, antiaircraft_warfare, special_equipments, mobile_SRBM_systems, vehicles_fuel_tanks, cruise_missles, greatest_losses_direction) VALUES ("6/1/2022", 98, 208, 175, 1361, 3343, 659, 207, NULL, NULL, 519, 13, 94, 49, NULL, 2290, 120, "Kryvyi Rih and Bakhmut");
+INSERT INTO russian_equipment_losses (date, days_past, aircraft, helicopters, tanks, APCs, field_artillery, MRL, military_autos, fuel_tanks, drones, naval_ships, antiaircraft_warfare, special_equipments, mobile_SRBM_systems, vehicles_fuel_tanks, cruise_missles, greatest_losses_direction) VALUES ("6/2/2022", 99, 210, 175, 1363, 3354, 661, 207, NULL, NULL, 521, 13, 95, 51, NULL, 2325, 120, "Bakhmut");
+INSERT INTO russian_equipment_losses (date, days_past, aircraft, helicopters, tanks, APCs, field_artillery, MRL, military_autos, fuel_tanks, drones, naval_ships, antiaircraft_warfare, special_equipments, mobile_SRBM_systems, vehicles_fuel_tanks, cruise_missles, greatest_losses_direction) VALUES ("6/3/2022", 100, 210, 175, 1367, 3366, 675, 207, NULL, NULL, 535, 13, 95, 51, NULL, 2329, 121, "Bakhmut");
+INSERT INTO russian_equipment_losses (date, days_past, aircraft, helicopters, tanks, APCs, field_artillery, MRL, military_autos, fuel_tanks, drones, naval_ships, antiaircraft_warfare, special_equipments, mobile_SRBM_systems, vehicles_fuel_tanks, cruise_missles, greatest_losses_direction) VALUES ("6/4/2022", 101, 210, 175, 1376, 3379, 680, 207, NULL, NULL, 540, 13, 95, 52, NULL, 2337, 122, "Zaporizhzhia");
+INSERT INTO russian_equipment_losses (date, days_past, aircraft, helicopters, tanks, APCs, field_artillery, MRL, military_autos, fuel_tanks, drones, naval_ships, antiaircraft_warfare, special_equipments, mobile_SRBM_systems, vehicles_fuel_tanks, cruise_missles, greatest_losses_direction) VALUES ("6/5/2022", 102, 210, 175, 1381, 3392, 686, 207, NULL, NULL, 548, 13, 95, 53, NULL, 2360, 122, "Bakhmut");
+INSERT INTO russian_equipment_losses (date, days_past, aircraft, helicopters, tanks, APCs, field_artillery, MRL, military_autos, fuel_tanks, drones, naval_ships, antiaircraft_warfare, special_equipments, mobile_SRBM_systems, vehicles_fuel_tanks, cruise_missles, greatest_losses_direction) VALUES ("6/6/2022", 103, 211, 176, 1386, 3400, 690, 207, NULL, NULL, 551, 13, 96, 53, NULL, 2395, 125, "Slov'yansÊ¹k");
+INSERT INTO russian_equipment_losses (date, days_past, aircraft, helicopters, tanks, APCs, field_artillery, MRL, military_autos, fuel_tanks, drones, naval_ships, antiaircraft_warfare, special_equipments, mobile_SRBM_systems, vehicles_fuel_tanks, cruise_missles, greatest_losses_direction) VALUES ("6/7/2022", 104, 212, 177, 1390, 3416, 694, 207, NULL, NULL, 553, 13, 96, 53, NULL, 2405, 125, "Slov'yansÊ¹k");
+INSERT INTO russian_equipment_losses (date, days_past, aircraft, helicopters, tanks, APCs, field_artillery, MRL, military_autos, fuel_tanks, drones, naval_ships, antiaircraft_warfare, special_equipments, mobile_SRBM_systems, vehicles_fuel_tanks, cruise_missles, greatest_losses_direction) VALUES ("6/8/2022", 105, 212, 178, 1393, 3429, 703, 213, NULL, NULL, 559, 13, 96, 53, NULL, 2406, 125, "Slov'yansÊ¹k");
+INSERT INTO russian_equipment_losses (date, days_past, aircraft, helicopters, tanks, APCs, field_artillery, MRL, military_autos, fuel_tanks, drones, naval_ships, antiaircraft_warfare, special_equipments, mobile_SRBM_systems, vehicles_fuel_tanks, cruise_missles, greatest_losses_direction) VALUES ("6/9/2022", 106, 212, 178, 1398, 3438, 711, 213, NULL, NULL, 562, 13, 96, 53, NULL, 2421, 125, "Bahmut");
+INSERT INTO russian_equipment_losses (date, days_past, aircraft, helicopters, tanks, APCs, field_artillery, MRL, military_autos, fuel_tanks, drones, naval_ships, antiaircraft_warfare, special_equipments, mobile_SRBM_systems, vehicles_fuel_tanks, cruise_missles, greatest_losses_direction) VALUES ("6/11/2022", 108, 212, 178, 1419, 3466, 712, 222, NULL, NULL, 579,	13, 97, 54, NULL, 2448, 125, "Sievierodonetsk and Bahmut");
+
+
+
+
+
+
+CREATE TABLE russian_personnel_losses (
+	id INTEGER PRIMARY KEY AUTOINCREMENT,
+	russian_equipment_losses_id INTEGER,
+	date TEXT,
+	days_past INTEGER,
+	personnel INTEGER,
+	approximation TEXT,
+	pow INTEGER
+);
+INSERT INTO russian_personnel_losses (russian_equipment_losses_id, date, days_past, personnel, approximation, pow) VALUES (1, "2/25/2022", 2, 2800, "about", 0);
+INSERT INTO russian_personnel_losses (russian_equipment_losses_id, date, days_past, personnel, approximation, pow) VALUES (2, "2/26/2022", 3, 4300, "about", 0);
+INSERT INTO russian_personnel_losses (russian_equipment_losses_id, date, days_past, personnel, approximation, pow) VALUES (3, "2/27/2022", 4, 4500, "about", 0);
+INSERT INTO russian_personnel_losses (russian_equipment_losses_id, date, days_past, personnel, approximation, pow) VALUES (4, "2/28/2022", 5, 5300, "about", 0);
+INSERT INTO russian_personnel_losses (russian_equipment_losses_id, date, days_past, personnel, approximation, pow) VALUES (5, "3/1/2022",	6, 5710, "about",	200);
+INSERT INTO russian_personnel_losses (russian_equipment_losses_id, date, days_past, personnel, approximation, pow) VALUES (6, "3/2/2022",	7, 5840, "about",	200);
+INSERT INTO russian_personnel_losses (russian_equipment_losses_id, date, days_past, personnel, approximation, pow) VALUES (7, "3/3/2022",	8, 9000, "about",	200);
+INSERT INTO russian_personnel_losses (russian_equipment_losses_id, date, days_past, personnel, approximation, pow) VALUES (8, "3/4/2022",	9, 9166, "about",	200);
+INSERT INTO russian_personnel_losses (russian_equipment_losses_id, date, days_past, personnel, approximation, pow) VALUES (9, "3/5/2022",	10, 10000, "about", 216);
+INSERT INTO russian_personnel_losses (russian_equipment_losses_id, date, days_past, personnel, approximation, pow) VALUES (10, "3/6/2022", 11, 11000, "about", 232);
+INSERT INTO russian_personnel_losses (russian_equipment_losses_id, date, days_past, personnel, approximation, pow) VALUES (11, "3/7/2022", 12, 11000,	"more", 259);
+INSERT INTO russian_personnel_losses (russian_equipment_losses_id, date, days_past, personnel, approximation, pow) VALUES (12, "3/8/2022", 13, 12000,	"about", 284);
+INSERT INTO russian_personnel_losses (russian_equipment_losses_id, date, days_past, personnel, approximation, pow) VALUES (13, "3/9/2022", 14, 12000, "about", 360);
+INSERT INTO russian_personnel_losses (russian_equipment_losses_id, date, days_past, personnel, approximation, pow) VALUES (14, "3/10/2022", 15,	12000, "more", 371);
+INSERT INTO russian_personnel_losses (russian_equipment_losses_id, date, days_past, personnel, approximation, pow) VALUES (15, "3/11/2022", 16,	12000, "more", 389);
+INSERT INTO russian_personnel_losses (russian_equipment_losses_id, date, days_past, personnel, approximation, pow) VALUES (16, "3/12/2022", 17,	12000, "more", 389);
+INSERT INTO russian_personnel_losses (russian_equipment_losses_id, date, days_past, personnel, approximation, pow) VALUES (17, "3/13/2022", 18,	12000, "more", 389);
+INSERT INTO russian_personnel_losses (russian_equipment_losses_id, date, days_past, personnel, approximation, pow) VALUES (18, "3/14/2022", 19,	12000, "more", 389);
+INSERT INTO russian_personnel_losses (russian_equipment_losses_id, date, days_past, personnel, approximation, pow) VALUES (19, "3/15/2022", 20,	13500, "about", 389);
+INSERT INTO russian_personnel_losses (russian_equipment_losses_id, date, days_past, personnel, approximation, pow) VALUES (20, "3/16/2022", 21,	13800, "about", 389);
+INSERT INTO russian_personnel_losses (russian_equipment_losses_id, date, days_past, personnel, approximation, pow) VALUES (21, "3/17/2022", 22,	14000, "about", 405);
+INSERT INTO russian_personnel_losses (russian_equipment_losses_id, date, days_past, personnel, approximation, pow) VALUES (22, "3/18/2022", 23,	14200, "about", 405);
+INSERT INTO russian_personnel_losses (russian_equipment_losses_id, date, days_past, personnel, approximation, pow) VALUES (23, "3/19/2022", 24,	14400, "about", 405);
+INSERT INTO russian_personnel_losses (russian_equipment_losses_id, date, days_past, personnel, approximation, pow) VALUES (24, "3/20/2022", 25,	14700, "about", 405);
+INSERT INTO russian_personnel_losses (russian_equipment_losses_id, date, days_past, personnel, approximation, pow) VALUES (25, "3/21/2022", 26, 15000, "about", 405);
+INSERT INTO russian_personnel_losses (russian_equipment_losses_id, date, days_past, personnel, approximation, pow) VALUES (26, "3/22/2022", 27,	15300, "about", 411);
+INSERT INTO russian_personnel_losses (russian_equipment_losses_id, date, days_past, personnel, approximation, pow) VALUES (27, "3/23/2022", 28, 15600, "about", 412);
+INSERT INTO russian_personnel_losses (russian_equipment_losses_id, date, days_past, personnel, approximation, pow) VALUES (28, "3/24/2022", 29, 15800, "about", 412);
+INSERT INTO russian_personnel_losses (russian_equipment_losses_id, date, days_past, personnel, approximation, pow) VALUES (29, "3/25/2022", 30, 16100, "about", 412);
+INSERT INTO russian_personnel_losses (russian_equipment_losses_id, date, days_past, personnel, approximation, pow) VALUES (30, "3/26/2022", 31,	16400, "about", 412); 
+INSERT INTO russian_personnel_losses (russian_equipment_losses_id, date, days_past, personnel, approximation, pow) VALUES (31, "3/27/2022", 32, 16600, "about", 421);
+INSERT INTO russian_personnel_losses (russian_equipment_losses_id, date, days_past, personnel, approximation, pow) VALUES (32, "3/28/2022", 33,	17000, "about", 421);
+INSERT INTO russian_personnel_losses (russian_equipment_losses_id, date, days_past, personnel, approximation, pow) VALUES (33, "3/29/2022", 34,	17200, "about", 430);
+INSERT INTO russian_personnel_losses (russian_equipment_losses_id, date, days_past, personnel, approximation, pow) VALUES (34, "3/30/2022", 35,	17300, "about", 430);
+INSERT INTO russian_personnel_losses (russian_equipment_losses_id, date, days_past, personnel, approximation, pow) VALUES (35, "3/31/2022", 36, 17500, "about", 459);
+INSERT INTO russian_personnel_losses (russian_equipment_losses_id, date, days_past, personnel, approximation, pow) VALUES (36, "4/1/2022", 37, 17700, "about", 459);
+INSERT INTO russian_personnel_losses (russian_equipment_losses_id, date, days_past, personnel, approximation, pow) VALUES (37, "4/2/2022", 38, 17700,	"about", 460);
+INSERT INTO russian_personnel_losses (russian_equipment_losses_id, date, days_past, personnel, approximation, pow) VALUES (38, "4/3/2022", 39, 18000, "about", 460);
+INSERT INTO russian_personnel_losses (russian_equipment_losses_id, date, days_past, personnel, approximation, pow) VALUES (39, "4/4/2022", 40, 18300,	"about", 460);
+INSERT INTO russian_personnel_losses (russian_equipment_losses_id, date, days_past, personnel, approximation, pow) VALUES (40, "4/5/2022", 41, 18500,	"about", 467);
+INSERT INTO russian_personnel_losses (russian_equipment_losses_id, date, days_past, personnel, approximation, pow) VALUES (41, "4/6/2022", 42, 18600,	"about", 467);
+INSERT INTO russian_personnel_losses (russian_equipment_losses_id, date, days_past, personnel, approximation, pow) VALUES (42, "4/7/2022", 43, 18900, "about", 467);
+INSERT INTO russian_personnel_losses (russian_equipment_losses_id, date, days_past, personnel, approximation, pow) VALUES (43, "4/8/2022", 44, 19000, "about", 467);
+INSERT INTO russian_personnel_losses (russian_equipment_losses_id, date, days_past, personnel, approximation, pow) VALUES (44, "4/9/2022", 45, 19100, "about", 467);
+INSERT INTO russian_personnel_losses (russian_equipment_losses_id, date, days_past, personnel, approximation, pow) VALUES (45, "4/10/2022", 46,	19300, "about", 467);
+INSERT INTO russian_personnel_losses (russian_equipment_losses_id, date, days_past, personnel, approximation, pow) VALUES (46, "4/11/2022", 47,	19500, "about", 467);
+INSERT INTO russian_personnel_losses (russian_equipment_losses_id, date, days_past, personnel, approximation, pow) VALUES (47, "4/12/2022", 48,	19600, "about", 477);
+INSERT INTO russian_personnel_losses (russian_equipment_losses_id, date, days_past, personnel, approximation, pow) VALUES (48, "4/13/2022", 49,	19800, "about", 477);
+INSERT INTO russian_personnel_losses (russian_equipment_losses_id, date, days_past, personnel, approximation, pow) VALUES (49, "4/14/2022", 50,	19900, "about", 477);
+INSERT INTO russian_personnel_losses (russian_equipment_losses_id, date, days_past, personnel, approximation, pow) VALUES (50, "4/15/2022", 51, 20000, "about", 477);
+INSERT INTO russian_personnel_losses (russian_equipment_losses_id, date, days_past, personnel, approximation, pow) VALUES (51, "4/16/2022", 52, 20100, "about", 477);
+INSERT INTO russian_personnel_losses (russian_equipment_losses_id, date, days_past, personnel, approximation, pow) VALUES (52, "4/17/2022", 53,	20300, "about", 477);
+INSERT INTO russian_personnel_losses (russian_equipment_losses_id, date, days_past, personnel, approximation, pow) VALUES (53, "4/18/2022", 54, 20600, "about", 477);
+INSERT INTO russian_personnel_losses (russian_equipment_losses_id, date, days_past, personnel, approximation, pow) VALUES (54, "4/19/2022", 55,	20800, "about", 489);
+INSERT INTO russian_personnel_losses (russian_equipment_losses_id, date, days_past, personnel, approximation, pow) VALUES (55, "4/20/2022", 56,	20900, "about", 489);
+INSERT INTO russian_personnel_losses (russian_equipment_losses_id, date, days_past, personnel, approximation, pow) VALUES (56, "4/21/2022", 57,	21000, "about", 489);
+INSERT INTO russian_personnel_losses (russian_equipment_losses_id, date, days_past, personnel, approximation, pow) VALUES (57, "4/22/2022", 58,	21200, "about", 489);
+INSERT INTO russian_personnel_losses (russian_equipment_losses_id, date, days_past, personnel, approximation, pow) VALUES (58, "4/23/2022", 59,	21600, "about", 489);
+INSERT INTO russian_personnel_losses (russian_equipment_losses_id, date, days_past, personnel, approximation, pow) VALUES (59, "4/24/2022", 60,	21800, "about", 489);
+INSERT INTO russian_personnel_losses (russian_equipment_losses_id, date, days_past, personnel, approximation, pow) VALUES (60, "4/25/2022", 61, 21900, "about", 489);
+INSERT INTO russian_personnel_losses (russian_equipment_losses_id, date, days_past, personnel, approximation, pow) VALUES (61, "4/26/2022", 62,	22100, "about", 489);
+INSERT INTO russian_personnel_losses (russian_equipment_losses_id, date, days_past, personnel, approximation, pow) VALUES (62, "4/27/2022", 63, 22400, "about", 496);
+INSERT INTO russian_personnel_losses (russian_equipment_losses_id, date, days_past, personnel, approximation, pow) VALUES (63, "4/28/2022", 64,	22800, "about", 496);
+INSERT INTO russian_personnel_losses (russian_equipment_losses_id, date, days_past, personnel, approximation, pow) VALUES (64, "4/29/2022", 65,	23000, "about", 496);
+INSERT INTO russian_personnel_losses (russian_equipment_losses_id, date, days_past, personnel, approximation, pow) VALUES (65, "4/30/2022", 66,	23200, "about", 496);
+INSERT INTO russian_personnel_losses (russian_equipment_losses_id, date, days_past, personnel, approximation, pow) VALUES (66, "5/1/2022", 67, 23500, "about", 496);
+INSERT INTO russian_personnel_losses (russian_equipment_losses_id, date, days_past, personnel, approximation, pow) VALUES (67, "5/2/2022", 68, 23800, "about", 496);
+INSERT INTO russian_personnel_losses (russian_equipment_losses_id, date, days_past, personnel, approximation, pow) VALUES (68, "5/3/2022", 69, 24200, "about", 496);
+INSERT INTO russian_personnel_losses (russian_equipment_losses_id, date, days_past, personnel, approximation, pow) VALUES (69, "5/4/2022", 70, 24500,	"about", 496);
+INSERT INTO russian_personnel_losses (russian_equipment_losses_id, date, days_past, personnel, approximation, pow) VALUES (70, "5/5/2022", 71, 24700,	"about", 496);
+INSERT INTO russian_personnel_losses (russian_equipment_losses_id, date, days_past, personnel, approximation, pow) VALUES (71, "5/6/2022", 72, 24900, "about", 496);
+INSERT INTO russian_personnel_losses (russian_equipment_losses_id, date, days_past, personnel, approximation, pow) VALUES (72, "5/7/2022", 73, 25100,	"about", 496);
+INSERT INTO russian_personnel_losses (russian_equipment_losses_id, date, days_past, personnel, approximation, pow) VALUES (73, "5/8/2022", 74, 25500, "about", 496);
+INSERT INTO russian_personnel_losses (russian_equipment_losses_id, date, days_past, personnel, approximation, pow) VALUES (74, "5/9/2022", 75, 25650,	"about", 496);
+INSERT INTO russian_personnel_losses (russian_equipment_losses_id, date, days_past, personnel, approximation, pow) VALUES (75, "5/10/2022", 76, 26000, "about", 498);
+INSERT INTO russian_personnel_losses (russian_equipment_losses_id, date, days_past, personnel, approximation, pow) VALUES (76, "5/11/2022", 77,	26350, "about", 498);
+INSERT INTO russian_personnel_losses (russian_equipment_losses_id, date, days_past, personnel, approximation, pow) VALUES (77, "5/12/2022", 78,	26650, "about", 498);
+INSERT INTO russian_personnel_losses (russian_equipment_losses_id, date, days_past, personnel, approximation, pow) VALUES (78, "5/13/2022", 79,	26900, "about", 498);
+INSERT INTO russian_personnel_losses (russian_equipment_losses_id, date, days_past, personnel, approximation, pow) VALUES (79, "5/14/2022", 80,	27200, "about", 498);
+INSERT INTO russian_personnel_losses (russian_equipment_losses_id, date, days_past, personnel, approximation, pow) VALUES (80, "5/15/2022", 81, 27400, "about", 498);
+INSERT INTO russian_personnel_losses (russian_equipment_losses_id, date, days_past, personnel, approximation, pow) VALUES (81, "5/16/2022", 82, 27700, "about", 498);
+INSERT INTO russian_personnel_losses (russian_equipment_losses_id, date, days_past, personnel, approximation, pow) VALUES (82, "5/17/2022", 83,	27900, "about", 498);
+INSERT INTO russian_personnel_losses (russian_equipment_losses_id, date, days_past, personnel, approximation, pow) VALUES (83, "5/18/2022", 84,	28300, "about", 498);
+INSERT INTO russian_personnel_losses (russian_equipment_losses_id, date, days_past, personnel, approximation, pow) VALUES (84, "5/19/2022", 85, 28500, "about", 498);
+INSERT INTO russian_personnel_losses (russian_equipment_losses_id, date, days_past, personnel, approximation, pow) VALUES (85, "5/20/2022", 86,	28700, "about", 498);
+INSERT INTO russian_personnel_losses (russian_equipment_losses_id, date, days_past, personnel, approximation, pow) VALUES (86, "5/21/2022", 87, 28850, "about", 498);
+INSERT INTO russian_personnel_losses (russian_equipment_losses_id, date, days_past, personnel, approximation, pow) VALUES (87, "5/22/2022", 88,	29050, "about", 498);
+INSERT INTO russian_personnel_losses (russian_equipment_losses_id, date, days_past, personnel, approximation, pow) VALUES (88, "5/23/2022", 89, 29200, "about", 498);
+INSERT INTO russian_personnel_losses (russian_equipment_losses_id, date, days_past, personnel, approximation, pow) VALUES (89, "5/24/2022", 90,	29350, "about", 498);
+INSERT INTO russian_personnel_losses (russian_equipment_losses_id, date, days_past, personnel, approximation, pow) VALUES (90, "5/25/2022", 91, 29450, "about", 498);
+INSERT INTO russian_personnel_losses (russian_equipment_losses_id, date, days_past, personnel, approximation, pow) VALUES (91, "5/26/2022", 92,	29600, "about", 498);
+INSERT INTO russian_personnel_losses (russian_equipment_losses_id, date, days_past, personnel, approximation, pow) VALUES (92, "5/27/2022", 93, 29750, "about", 498);
+INSERT INTO russian_personnel_losses (russian_equipment_losses_id, date, days_past, personnel, approximation, pow) VALUES (93, "5/28/2022", 94, 30000, "about", 498);
+INSERT INTO russian_personnel_losses (russian_equipment_losses_id, date, days_past, personnel, approximation, pow) VALUES (94, "5/29/2022", 95, 30150, "about", 498);
+INSERT INTO russian_personnel_losses (russian_equipment_losses_id, date, days_past, personnel, approximation, pow) VALUES (95, "5/30/2022", 96,	30350, "about", 498);
+INSERT INTO russian_personnel_losses (russian_equipment_losses_id, date, days_past, personnel, approximation, pow) VALUES (96, "5/31/2022", 97,	30500, "about", 498);
+INSERT INTO russian_personnel_losses (russian_equipment_losses_id, date, days_past, personnel, approximation, pow) VALUES (97, "6/1/2022", 98, 30700, "about", 498);
+INSERT INTO russian_personnel_losses (russian_equipment_losses_id, date, days_past, personnel, approximation, pow) VALUES (98, "6/2/2022", 99, 30850,	"about", 498);
+INSERT INTO russian_personnel_losses (russian_equipment_losses_id, date, days_past, personnel, approximation, pow) VALUES (99, "6/3/2022", 100, 30950, "about", 498);
+INSERT INTO russian_personnel_losses (russian_equipment_losses_id, date, days_past, personnel, approximation, pow) VALUES (100, "6/4/2022", 101, 31050, "about", 498); 
+INSERT INTO russian_personnel_losses (russian_equipment_losses_id, date, days_past, personnel, approximation, pow) VALUES (101, "6/5/2022", 102, 31150, "about", 498);
+INSERT INTO russian_personnel_losses (russian_equipment_losses_id, date, days_past, personnel, approximation, pow) VALUES (102, "6/6/2022", 103, 31250, "about", 498);
+INSERT INTO russian_personnel_losses (russian_equipment_losses_id, date, days_past, personnel, approximation, pow) VALUES (103, "6/7/2022", 104, 31360, "about", 498);
+INSERT INTO russian_personnel_losses (russian_equipment_losses_id, date, days_past, personnel, approximation, pow) VALUES (104, "6/8/2022", 105, 31500, "about", 498);
+INSERT INTO russian_personnel_losses (russian_equipment_losses_id, date, days_past, personnel, approximation, pow) VALUES (105, "6/9/2022", 106, 31700, "about", 498);
+INSERT INTO russian_personnel_losses (russian_equipment_losses_id, date, days_past, personnel, approximation, pow) VALUES (106, "6/10/2022", 107, 31900, "about",	498);
+INSERT INTO russian_personnel_losses (russian_equipment_losses_id, date, days_past, personnel, approximation, pow) VALUES (107, "6/11/2022", 108, 32050, "about", 498);
+
+---------------------------Query-----------------------------
+/* Finding  50% of the max losses of helicopters */
+SELECT 
+	COUNT (*) 
+FROM
+	russian_equipment_losses
+WHERE 
+	helicopters >= ROUND(.90 * (140 -7)									
+
+/* how many "about" estimates are there */
+SELECT 
+	COUNT(approximation) AS estimates_about
+FROM
+	russian_personnel_losses
+WHERE
+	approximation 
+        LIKE "abo%";
+
+/*how many "more" estimates are there */
+SELECT 
+	COUNT(approximation) AS estimates_more
+FROM
+	russian_personnel_losses
+WHERE
+    approximation IS NOT "about";
+
+/* what date did drones over take helicopters in losses and its personnel */
+SELECT
+	rpl.date,
+	rpl.day,
+	rel.drone,
+	rel.helicopter,
+	rel.fuel tank,
+	rel.mrl,
+	rpl.personnel, 
+	rpl.pow
+FROM
+	russian_equipment_losses AS rel
+INNER JOIN 
+	russian_personnel_losses AS rpl
+ON
+	rel.id = rpl.russian_equipment_losses_id
+WHERE 
+    drones > helicopters
+
+/*the city of greatest losses up to date and the total of all losses*/
+SELECT
+	*
+FROM
+	russian_equipment_losses
+GROUP BY
+	greatest_losses_direction
+
+/*first five days of the war seeing the dramatic loss increase */
+SELECT
+	rel.*,
+	rpl.*,
+FROM
+	russian_equipment_losses AS rel
+INNER JOIN
+	russian_personnel_losses AS rpl
+ON 
+	rel.id = rpl.russian_equipment_losses_id
+LIMIT 5
+
+/*the most recent losses incurred by Russia */
+SELECT
+	rel.*,
+	rpl.*
+FROM
+	russian_equipment_losses AS rel
+INNER JOIN
+	russian_personnel_losses AS rpl
+ON 
+	rel.id = rpl.russian_equipment_losses_id
+ORDER BY 
+	days_past DESC
+LIMIT 7
+
+------------------------Important info-----------------------
+Acronyms
+POW - Prisoner of War,
+MRL - Multiple Rocket Launcher,
+APC - Armored Personnel Carrier,
+SRBM - Short-range ballistic missile,
+drones:
+UAV - Unmanned Aerial Vehicle,
+RPA - Remotely Piloted Vehicle.
